@@ -1,0 +1,11 @@
+﻿  main.cpp
+D:\WorkSpace\rayTracing\Project1\Project1\vec3.h(54,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\WorkSpace\rayTracing\Project1\Project1\vec3.h(133,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\WorkSpace\rayTracing\Project1\Project1\ray.h(7,51): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+D:\WorkSpace\rayTracing\Project1\Project1\main.cpp(6,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\WorkSpace\rayTracing\Project1\Project1\main.cpp(7,14): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\WorkSpace\rayTracing\Project1\Project1\main.cpp(7,65): warning C4305: “参数”: 从“double”到“float”截断
+  ray.cpp
+D:\WorkSpace\rayTracing\Project1\Project1\vec3.h(54,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\WorkSpace\rayTracing\Project1\Project1\vec3.h(133,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\WorkSpace\rayTracing\Project1\Project1\ray.h(7,51): error C2143: 语法错误: 缺少“;”(在“}”的前面)
