@@ -32,5 +32,8 @@
     <ClInclude Include="ray.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
