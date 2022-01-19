@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ray.h"
+#include "camera.h"
 #include "main.h"
 
 float hit_sphere(const vec3 & center , float radius , const ray& r) {
@@ -37,11 +37,8 @@ int main()
 	int nx = 200;
 	int ny = 100;
 	std::cout << "P3\n" << nx << " " << ny << "\n255\n";
-
-	vec3 lower_left_corner(-2.0, -1.0, -1.0);
-	vec3 horizontal(4.0, 0.0, 0.0);
-	vec3 vertical(0.0, 2.0, 0.0);
-	vec3 origin(0.0, 0.0, 0.0);
+	
+	camera  cam;
 
 	for (int j = ny - 1; j >= 0; j--)
 	{
@@ -50,7 +47,7 @@ int main()
 			float u = float(i) / float(nx);
 			float v = float(j) / float(ny);
 
-			ray r(origin, lower_left_corner + u * horizontal + v*vertical);
+			ray r = cam.get_ray(u, v);
 			vec3 col = color(r);
 
 			int ir = int(255.99 * col[0]);

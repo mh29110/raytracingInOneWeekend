@@ -1,4 +1,7 @@
-﻿  main.cpp
+﻿  camera.cpp
+D:\WorkSpace\rayTracing\Project1\Project1\vec3.h(54,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\WorkSpace\rayTracing\Project1\Project1\vec3.h(133,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  main.cpp
 D:\WorkSpace\rayTracing\Project1\Project1\vec3.h(54,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
 D:\WorkSpace\rayTracing\Project1\Project1\vec3.h(133,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
 D:\WorkSpace\rayTracing\Project1\Project1\main.cpp(8,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
@@ -6,4 +9,6 @@ D:\WorkSpace\rayTracing\Project1\Project1\main.cpp(17,36): warning C4244: “ret
 D:\WorkSpace\rayTracing\Project1\Project1\main.cpp(30,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 D:\WorkSpace\rayTracing\Project1\Project1\main.cpp(31,14): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
 D:\WorkSpace\rayTracing\Project1\Project1\main.cpp(31,65): warning C4305: “参数”: 从“double”到“float”截断
+  正在生成代码...
+  LINK : 没有找到 D:\WorkSpace\rayTracing\Project1\Debug\Project1.exe 或上一个增量链接没有生成它；正在执行完全链接
   Project1.vcxproj -> D:\WorkSpace\rayTracing\Project1\Debug\Project1.exe
